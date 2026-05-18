@@ -10,7 +10,10 @@
                  'Arial Narrow',
                  Arial,
                  sans-serif;
-}
+
+
+                }
+
 
 
 /* ========================= */
@@ -205,7 +208,7 @@ img {
 
 .presentation {
 
-    background-color: rgb(70, 70, 90);
+    background-color: rgb(109, 109, 121);
 
     width: 900px;
 
@@ -285,4 +288,32 @@ button {
     font-size: 20px;
 
     border-radius: 10px;
+}
+
+body {
+
+    border: 10px solid rgb(28, 189, 175);
+    animation: rgb 5s infinite;
+}
+@keyframes rgb {
+
+    0% {
+        border-color: red;
+    }
+
+    25% {
+        border-color: blue;
+    }
+
+    50% {
+        border-color: lime;
+    }
+
+    75% {
+        border-color: purple;
+    }
+
+    100% {
+        border-color: red;
+    }
 }
