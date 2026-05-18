@@ -1,0 +1,255 @@
+/* ========================= */
+/* PAGE 1 */
+/* ========================= */
+
+.page1 {
+
+    background-color: rgb(138, 139, 155);
+
+    font-family: 'Franklin Gothic Medium',
+                 'Arial Narrow',
+                 Arial,
+                 sans-serif;
+}
+
+
+/* ========================= */
+/* PAGE 2 */
+/* ========================= */
+
+.page2 {
+
+    background-color: rgb(255, 255, 255);
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* ========================= */
+/* PAGE 3 */
+/* ========================= */
+
+.page3 {
+
+    background-color: rgb(240, 240, 240);
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* ========================= */
+/* MENU */
+/* ========================= */
+
+.menu {
+
+    float: right;
+}
+
+
+.menu-droite ul {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    list-style: none;
+
+    padding: 0;
+}
+
+
+.menu-gauche ul {
+
+    list-style: none;
+
+    padding: 0;
+}
+
+
+li {
+
+    list-style: none;
+}
+
+
+li a {
+
+    font-size: xx-large;
+
+    text-decoration: none;
+
+    color: black;
+}
+
+
+/* ========================= */
+/* CONTENEUR FLEX */
+/* ========================= */
+
+.conteneur {
+
+    display: block;
+
+    text-align: center;
+
+    padding: 50px;
+}
+
+
+/* ========================= */
+/* BLOCS */
+/* ========================= */
+
+.gauche,
+.centre,
+.droite {
+
+    width: 100%;
+}
+
+
+/* ========================= */
+/* TITRES */
+/* ========================= */
+
+h1 {
+
+    color: black;
+
+    text-align: center;
+
+    text-decoration: underline;
+
+    font-family: serif;
+
+    font-size: 40px;
+}
+
+
+h2 {
+
+    color: black;
+
+    font-size: 70px;
+
+    text-align: center;
+
+    text-decoration: underline blue;
+}
+
+
+h3 {
+
+    color: black;
+
+    text-align: center;
+
+    text-decoration: underline;
+}
+
+
+/* ========================= */
+/* PARAGRAPHES */
+/* ========================= */
+
+p {
+
+    font-size: 25px;
+
+    color: black;
+
+    text-align: center;
+
+    line-height: 45px;
+}
+
+
+/* ========================= */
+/* IMAGES */
+/* ========================= */
+
+img {
+
+    display: block;
+
+    margin: auto;
+
+    width: 400px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 20px gray;
+
+    margin-top: 20px;
+}
+
+
+/* ========================= */
+/* TRAIT */
+/* ========================= */
+
+.trait {
+
+    width: 764px;
+
+    border: 1px solid black;
+
+    margin: auto;
+}
+
+
+/* ========================= */
+/* PRESENTATION */
+/* ========================= */
+
+.presentation {
+
+    background-color: rgb(168, 171, 184);
+
+    width: 900px;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 20px black;
+
+    text-align: center;
+
+    margin: auto;
+
+    margin-top: 50px;
+}
+
+
+/* ========================= */
+/* TEXTE DANS PRESENTATION */
+/* ========================= */
+
+.presentation h1 {
+
+    color: white;
+
+    text-shadow: 3px 3px 10px black;
+}
+
+
+.presentation p {
+
+    color: white;
+}
+
+
+/* ========================= */
+/* IMAGE DANS PRESENTATION */
+/* ========================= */
+
+.presentation img {
+
+    width: 300px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 15px black;
+}
