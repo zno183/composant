@@ -205,9 +205,13 @@ img {
 
 .presentation {
 
-    background-color: rgb(168, 171, 184);
+    background-color: rgb(70, 70, 90);
 
     width: 900px;
+
+    margin: auto;
+
+    margin-top: 40px;
 
     padding: 40px;
 
@@ -216,11 +220,8 @@ img {
     box-shadow: 0px 0px 20px black;
 
     text-align: center;
-
-    margin: auto;
-
-    margin-top: 50px;
 }
+
 
 
 /* ========================= */
@@ -258,3 +259,4 @@ p {
 font-family:'Courier New', Courier, monospace
 
 }
+
