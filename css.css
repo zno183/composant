@@ -317,3 +317,32 @@ body {
         border-color: red;
     }
 }
+
+
+button {
+
+    margin: 10px;
+
+    padding: 10px 20px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+}
+
+
+.presentation-menu {
+
+    text-align: center;
+}
+
+.presentation-menu ul {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    padding: 0;
+}

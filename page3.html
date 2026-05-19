@@ -1,93 +1,141 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Les processeurs</title>
+
+    <!-- Feuille CSS -->
     <link rel="stylesheet" href="css.css">
-
-    <title>Page 3</title>
 
 </head>
 
 <body class="page3">
-<div class="presentation-menu">
 
-        <ul>
+    <!-- MENU -->
+    <header>
 
-            <li>
+        <nav class="presentation-menu">
 
-                <button>
-                    <a href="page2.html">carte mère</a>
-                </button>
+            <ul>
 
-                <button>
-                    <a href="page.html">les boitier</a>
-                </button>
+                <li>
+                    <button>
+                        <a href="page2.html">Carte mère</a>
+                    </button>
+                </li>
 
-                <button>
-                    <a href="page4.html">carte graphique</a>
-                </button>
+                <li>
+                    <button>
+                        <a href="page.html">Les boîtiers</a>
+                    </button>
+                </li>
 
-            </li>
+                <li>
+                    <button>
+                        <a href="page4.html">Carte graphique</a>
+                    </button>
+                </li>
 
-        </ul>
+            </ul>
 
-    </div>
-    <div class="conteneur">
+        </nav>
 
-        <div class="gauche">
+    </header>
 
-            <h2>le processeur</h2>
+    <!-- CONTENU PRINCIPAL -->
+    <main class="conteneur">
 
-            <p>
-                l'utilité principale d'un processeur est de traiter
-                une ou plusieurs informations et cela rend
-                les calculs possibles
-            </p>
+        <!-- Partie gauche -->
+        <section class="gauche">
 
-        </div>
-
-        <div class="centre">
-
-            <img src="photo/intel vs ryzen.jpg" alt="ryzen">
-
-        </div>
-
-        <div class="droite">
-
-            <h2>ryzen</h2>
-
-            <h1>1) les ryzen G</h1>
+            <h1>Le processeur</h1>
 
             <p>
-                le G dans le nom du processeur c'est pour graphique
-                qui veut dire que il sert tout comme cpu et gpu
+                Le processeur (CPU) est l’un des composants les plus importants
+                d’un ordinateur. Son rôle principal est de traiter les informations
+                et d’effectuer les calculs nécessaires au fonctionnement des logiciels
+                et du système.
             </p>
 
-            <h1>2) les ryzen x3d</h1>
+        </section>
 
-            <p>
-                représentent le sommet de l'ingénierie gaming
-                grâce à l'intégration de la technologie 3D V-Cache
-            </p>
-           <H2>Intel</H2>
-            <h1>les intel kf</h1>
-            <p>le f veut dire qu'il a pas de partie graphique intégre et le k c'est qu'il peut etre overlocker </p>
-            <h1> les intel ultra </h1>
-            <p>comprend un accélérateur d'intelligence artificielle (ou NPU, Neural Processing Unit) pour de plus grandes capacités IA et peut également inclure des cartes graphiques Intel Arc</p>
-        </div>
+        <!-- Partie centrale -->
+        <section class="centre">
 
+            <img src="photo/intel vs ryzen.jpg"
+                 alt="Comparaison entre processeurs Intel et Ryzen">
 
-    </div>
-<nav>
-        <ul>
-            <button><li><a href="page.html"> ← </a></li>  </button>
-            <button> <li><a href="page2.html">→</a></li> </button>
-            <button> <li><a href="page4.html">→</a></li> </button>
-        </ul>
+        </section>
+
+        <!-- Partie droite -->
+        <section class="droite">
+
+            <h2>AMD Ryzen</h2>
+
+            <!-- Ryzen G -->
+            <article>
+
+                <h3>1. Les Ryzen G</h3>
+
+                <p>
+                    Les processeurs Ryzen G possèdent une partie graphique intégrée.
+                    Ils peuvent donc fonctionner comme processeur (CPU)
+                    et comme carte graphique (GPU).
+                </p>
+
+            </article>
+
+            <!-- Ryzen X3D -->
+            <article>
+
+                <h3>2. Les Ryzen X3D</h3>
+
+                <p>
+                    Les Ryzen X3D sont conçus principalement pour le gaming.
+                    Ils utilisent la technologie 3D V-Cache afin d’améliorer
+                    les performances dans les jeux vidéo.
+                </p>
+
+            </article>
+
+            <!-- Intel -->
+            <h2>Intel</h2>
+
+            <!-- Intel KF -->
+            <article>
+
+                <h3>1. Les Intel KF</h3>
+
+                <p>
+                    Les processeurs Intel KF ne possèdent pas de partie graphique intégrée.
+                    La lettre K signifie qu’ils peuvent être overclockés
+                    pour obtenir plus de performances.
+                </p>
+
+            </article>
+
+            <!-- Intel Ultra -->
+            <article>
+
+                <h3>2. Les Intel Ultra</h3>
+
+                <p>
+                    Les processeurs Intel Ultra intègrent des fonctionnalités
+                    d’intelligence artificielle grâce à un NPU
+                    (Neural Processing Unit).
+                    Certains modèles possèdent également des graphiques Intel Arc.
+                </p>
+
+            </article>
+
+        </section>
+
+    </main>
+
 </body>
 
 </html>

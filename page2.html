@@ -1,65 +1,107 @@
 <!DOCTYPE html>
- <head>
 <html lang="fr">
+
+<head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Les cartes mères</title>
 
-   </head> 
-   
-   <body class="page2">
-    
-  <div class="presentation-menu">
+    <!-- Feuille CSS -->
+    <link rel="stylesheet" href="css.css">
+</head>
 
-        <ul>
+<body class="page2">
 
-            <li>
+    <!-- MENU -->
+    <header>
 
-                <button>
-                    <a href="page.html">les boitier</a>
-                </button>
+        <nav class="presentation-menu">
 
-                <button>
-                    <a href="page3.html">les processeurs</a>
-                </button>
+            <ul>
 
-                <button>
-                    <a href="page4.html">carte graphique</a>
-                </button>
+                <li>
+                    <button>
+                        <a href="page.html">Les boîtiers</a>
+                    </button>
+                </li>
 
-            </li>
+                <li>
+                    <button>
+                        <a href="page3.html">Les processeurs</a>
+                    </button>
+                </li>
 
-        </ul>
+                <li>
+                    <button>
+                        <a href="page4.html">Carte graphique</a>
+                    </button>
+                </li>
 
-    </div>
-        
-        <link rel="stylesheet" href="css.css">
+            </ul>
 
+        </nav>
 
+    </header>
 
+    <!-- CONTENU -->
+    <main>
 
- <section>
-        <h1>2.la carte mere </h1>
-        <p>l'utilité principale de la carte mere (appeler le cerveau de l'ordinateur ) il sert a redistribuer l'életricité dans tout les composant  </p>
-         <h1>  ATX </h1> 
-         <img src="photo/carte.webp">  
-         <h1>  Micro-ATX</h1>  
-         <img src="photo/micro.webp">
-         <h1>Mini-ITX</h1>
-         <img src="photo/itx.webp">
-         <h1> E-ATX</h1>
-         <img src="photo/etx.jfif">
-        </section>        
+        <section class="carte-mere">
 
-       
-          
+            <h1>La carte mère</h1>
 
+            <p>
+                La carte mère est l’élément principal de l’ordinateur.
+                Elle permet de connecter et d’alimenter tous les composants
+                entre eux comme le processeur, la mémoire RAM,
+                la carte graphique et le stockage.
+            </p>
 
-<nav>
-        <ul>
-           <button> <li><a href="page.html"> ← </a></li> </button>
-           <button> <li><a href="page3.html"> ← </a></li> </button>
-           <button> <li><a href="page4.html"> ← </a></li> </button>
-                
-        </ul>
-</nav>
+            <!-- ATX -->
+            <article>
+
+                <h2>ATX</h2>
+
+                <img src="photo/carte.webp"
+                     alt="Carte mère format ATX">
+
+            </article>
+
+            <!-- Micro-ATX -->
+            <article>
+
+                <h2>Micro-ATX</h2>
+
+                <img src="photo/micro.webp"
+                     alt="Carte mère format Micro-ATX">
+
+            </article>
+
+            <!-- Mini-ITX -->
+            <article>
+
+                <h2>Mini-ITX</h2>
+
+                <img src="photo/itx.webp"
+                     alt="Carte mère format Mini-ITX">
+
+            </article>
+
+            <!-- E-ATX -->
+            <article>
+
+                <h2>E-ATX</h2>
+
+                <img src="photo/etx.jfif"
+                     alt="Carte mère format E-ATX">
+
+            </article>
+
+        </section>
+
+    </main>
+
+</body>
+
 </html>
