@@ -381,30 +381,3 @@ animation: rgbTexte 3s infinite;
 
 
 
-p  {
-
-    animation: rgbTexte 3s infinite;
-}
-
-@keyframes rgbTexte {
-
-    0% {
-        color: red;
-    }
-
-    25% {
-        color: blue;
-    }
-
-    50% {
-        color: lime;
-    }
-
-    75% {
-        color: purple;
-    }
-
-    100% {
-        color: red;
-    }
-}
